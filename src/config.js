@@ -1,6 +1,6 @@
 export default {
     app: {
-        gateway: 'https://open-mensa-bot-jesvfd.gateway.dialogflow.cloud.ushakov.co', // <- enter your gateway URL here
+        gateway: 'https://open-mensa-bot-jesvfd.core.ushaflow.com', // <- enter your gateway URL here
         muted: false, // <- mute microphone at start
         start_suggestions: [], // <- array of suggestions, displayed at the start screen
         fallback_lang: 'en', // <- fallback language code, if history mode or network is unavailable,
