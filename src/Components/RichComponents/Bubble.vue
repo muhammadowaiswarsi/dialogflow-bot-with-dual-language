@@ -12,6 +12,7 @@
     position: relative
     background-color: var(--background)
     min-width: 26px
+    white-space: pre-line
 
     &::before
         content: var(--left-bubble)
