@@ -22,17 +22,6 @@
                     @click="submit({text: query})">
                     <i class="material-icons" aria-hidden="true">arrow_upward</i>
                 </button>
-
-                <!-- Microphone Button -->
-                <button
-                    v-else
-                    class="button"
-                    :aria-label="(config.i18n[lang()] && config.i18n[lang()].microphoneTitle) || config.i18n[config.app.fallback_lang].microphoneTitle"
-                    :title="(config.i18n[lang()] && config.i18n[lang()].microphoneTitle) || config.i18n[config.app.fallback_lang].microphoneTitle"
-                    :class="{'mic_active': micro}"
-                    @click="micro = !micro">
-                    <i class="material-icons" aria-hidden="true">mic</i>
-                </button>
             </div>
         </div>
     </div>
